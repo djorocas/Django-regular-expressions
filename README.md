@@ -273,13 +273,5 @@ def article_detail(request, year, month, article_id):
     ...
     return ...
 ```
-
-Live usage:
-
-```
-yourdomain.com/2015/
-yourdomain.com/2015/03/
-yourdomain.com/2015/03/21/
-```
     
 # References
