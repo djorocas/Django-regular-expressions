@@ -90,16 +90,7 @@ def show_user(request, username):
     return ...
 ```
 
-Live usage:
 
-```
-yourdomain.com/email@email.com/
-
-or
-
-yourdomain.com/myusername/
-
-```
 
 
 ### Object ID (user id, profile id, group id, etc)
@@ -107,6 +98,7 @@ Regex:
 
 ```
 (?P<order>\d+)
+(?P<pk>[0-9]+)
 ```
 
 ##### Example
@@ -135,12 +127,6 @@ View:
 def item_id(request,id):
     ...
     return ...
-```
-
-Live usage:
-
-```
-yourdomain.com/12/
 ```
 
 
@@ -180,11 +166,6 @@ def item_home(request, username, order):
     return ...
 ```
 
-Live usage:
-```
-yourdomain.com/useritem/myusername/13/
-```
-
 
 
 ### Slugs
@@ -216,11 +197,6 @@ def article(request,article):
     ...
     return ...
 ```
-
-Live usage:
-```
-yourdomain.com/your-slug/
-````
 
 
 ### Digits and Dates (through digits)
