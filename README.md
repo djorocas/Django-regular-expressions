@@ -251,5 +251,5 @@ def article_detail(request, year, month, article_id):
 ```
     
 # References
-  https://thenewboston.com/videos.php?cat=98
-  https://github.com/django
+  1. https://thenewboston.com/videos.php?cat=98
+  2. https://github.com/django
